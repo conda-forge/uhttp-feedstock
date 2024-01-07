@@ -1,5 +1,5 @@
 {% set name = "uhttp" %}
-{% set version = "1.3.6" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/uhttp-{{ version }}.tar.gz
-  sha256: b98fb22b70d3ae70e31390fd83ef45ce56accd0c7a56b975f88776eeb01a9945
+  sha256: 55baf245be446ba604cae4b9f75a9884c6678d9ab22eb1749eb983ddbfc6bc6d
 
 build:
   noarch: python
